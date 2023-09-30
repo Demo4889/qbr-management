@@ -1,4 +1,5 @@
 
+
 local GangaccountGangs = {}
 
 CreateThread(function()
@@ -226,3 +227,4 @@ exports['qbr-core']:CreateCallback('qbr-gangmenu:getplayers', function(source, c
 		end)
 	cb(players)
 end)
+
